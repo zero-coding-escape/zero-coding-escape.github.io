@@ -2,6 +2,7 @@
 
 	<HEAD>
 		<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
 
 		<!-- Facebook Meta Tags -->
 		<meta property="og:url" content="https://zero-coding-escape.github.io/my-family">
@@ -21,11 +22,13 @@
 		<!-- Google tag (gtag.js) -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-8N9G2KCMT8"></script>
 		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag(){dataLayer.push(arguments);}
-			gtag('js', new Date());
-
-			gtag('config', 'G-8N9G2KCMT8');
+			var isLocal = window.location.href.indexOf('localhost') >= 0 || window.location.href.indexOf('127.0.0.1') >= 0;
+			if(!isLocal) {
+				window.dataLayer = window.dataLayer || [];
+				function gtag(){dataLayer.push(arguments);}
+				gtag('js', new Date());
+				gtag('config', 'G-8N9G2KCMT8');
+			}
 		</script>
 		
 <!--
