@@ -33,10 +33,8 @@
     }
   </script>
 
-  <link rel="stylesheet" href="https://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
-  <!--[if lte IE 8]>
-    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.ie.css" />
-  <![endif]-->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
   <style>
     body {
       margin: 0;
@@ -50,7 +48,6 @@
       width: 100%;
     }
   </style>
-  <script src="https://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
 
 </HEAD>
 
@@ -64,7 +61,7 @@
     zoom: 14
   });
 
-  var imageUrl = '../Family-Tree.svg',
+  var imageUrl = './Family-Tree.svg',
     imageBounds = [
       [40.712216, -74.22655],
       [40.773941, -74.12544]
