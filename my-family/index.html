@@ -32,12 +32,45 @@
       gtag('config', 'G-8N9G2KCMT8');
     }
   </script>
-  <!-- <meta http-equiv="refresh" content="0;URL='/my-family/viewer/index.html#/view?file=d9d238ef586cb5c8bd05be4d7f7014f5&gen=-3&indi=I20'" /> -->
+
+  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+  <!--[if lte IE 8]>
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.ie.css" />
+  <![endif]-->
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    #map {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+  <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+
 </HEAD>
 
 <body>
-  <div style="margin:auto"><svg></svg></div>
-  <script src="main.js"></script>
+  <div id="map"></div>
 </body>
+<script>
+  // create the map
+  var map = L.map('map', {
+    center: [40.75, -74.2],
+    zoom: 14
+  });
+
+  var imageUrl = '../Family-Tree.svg',
+    imageBounds = [
+      [40.712216, -74.22655],
+      [40.773941, -74.12544]
+    ];
+
+  L.imageOverlay(imageUrl, imageBounds).addTo(map);
+</script>
 
 </HTML>
