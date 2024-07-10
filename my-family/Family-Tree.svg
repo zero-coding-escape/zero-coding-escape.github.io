@@ -4,16 +4,15 @@
 <svg
    version="1.1"
    id="svg1"
-   width="4392.8672"
-   height="343.98706"
-   viewBox="0 0 4392.8672 343.98706"
+   width="4493.3335"
+   height="3178.6667"
+   viewBox="0 0 4493.3335 3178.6667"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <defs
      id="defs1" />
   <g
-     id="g1"
-     transform="translate(-50.233002,-1417.3399)">
+     id="g1">
     <path
        id="path1"
        d="m 640.41,1093.45 v -19.71"
@@ -3927,19 +3926,19 @@
     <text
        id="text564"
        xml:space="preserve"
-       transform="matrix(1.3333333,0,0,1.3333333,515.53333,1641.44)"><tspan
+       transform="matrix(1.3333333,0,0,1.3333333,516.85333,1641.44)"><tspan
          style="font-variant:normal;font-weight:normal;font-size:3.22px;font-family:'Arial Unicode MS';writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         x="0 2.3248401 3.03968 4.6496801 6.2596798 7.1516199"
+         x="0 2.3248401 3.03968 4.6496801"
          y="0"
-         id="tspan564">Dick (</tspan></text>
+         id="tspan564">Dick</tspan></text>
     <text
        id="text565"
        xml:space="preserve"
-       transform="matrix(1.3333333,0,0,1.3333333,512.44,1645.7333)"><tspan
+       transform="matrix(1.3333333,0,0,1.3333333,512.32,1645.7333)"><tspan
          style="font-variant:normal;font-weight:normal;font-size:3.22px;font-family:'Arial Unicode MS';writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         x="0 2.14452 3.93484 5.7251601 6.79742 8.5877399 10.91258 11.80452"
+         x="0 1.07226 3.2167799 5.0071001 6.79742 7.8696799 9.6599998 11.98484"
          y="0"
-         id="tspan565">Andrew )</tspan></text>
+         id="tspan565">(Andrew)</tspan></text>
     <path
        id="path565"
        d="m 253.79,1182.21 h 17.73 c 0.91,0 1.65,0.74 1.65,1.64 v 16.3 c 0,0.9 -0.74,1.64 -1.65,1.64 h -17.73 c -0.91,0 -1.65,-0.74 -1.65,-1.64 v -16.3 c 0,-0.9 0.74,-1.64 1.65,-1.64"
@@ -5712,11 +5711,11 @@
     <text
        id="text719"
        xml:space="preserve"
-       transform="matrix(1.3333333,0,0,1.3333333,4066.9333,1641.44)"><tspan
+       transform="matrix(1.3333333,0,0,1.3333333,4068.1333,1641.44)"><tspan
          style="font-variant:normal;font-weight:normal;font-size:3.22px;font-family:'Arial Unicode MS';writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         x="0 1.79032 3.5806401 5.9054799 7.6957998 8.7680597 10.55838 12.3487 13.9587"
+         x="0 1.79032 3.5806401 5.9054799 6.9777398 8.7680597 10.55838 12.16838"
          y="0"
-         id="tspan719">Lawarence</tspan></text>
+         id="tspan719">Lawrence</tspan></text>
     <text
        id="text720"
        xml:space="preserve"
