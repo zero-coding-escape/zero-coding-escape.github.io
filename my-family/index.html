@@ -20,6 +20,7 @@
   <meta name="twitter:description"
     content="Discover a world of family connections, and connect with distant relatives from the world.">
   <meta name="twitter:image" content="https://zero-coding-escape.github.io/my-family/cover.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>My Family</title>
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-8N9G2KCMT8"></script>
@@ -40,7 +41,21 @@
       margin: 0;
       padding: 0;
     }
-
+    #title {
+      position: absolute;
+      top: 1rem;
+      left: 10%;
+      right: auto;
+      background-color: rgba(125, 125, 125, 0.75);
+      color: white;
+      width: 80%;
+      text-align: center;
+      padding: 10px;
+      font-size: 20px;
+      font-family: Arial, Helvetica, sans-serif;
+      border-radius: 5px;
+      z-index: 1000;
+    }
     #map {
       position: absolute;
       top: 0;
@@ -52,12 +67,13 @@
 </HEAD>
 
 <body>
+  <div id="title">The Family Tree of 劉, 林, 李, 梁 ... (Working in Progress)</div>
   <div id="map"></div>
 </body>
 <script>
   // create the map
   var map = L.map('map', {
-    center: [40.75, -74.2],
+    center: [40.74, -74.17],
     zoom: 14
   });
 
